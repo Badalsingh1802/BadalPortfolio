@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Badal Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+   
+</head>
+
+<body onload="hideLoader()" >
+
+  <!-- Page Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Dark Mode Toggle -->
+  <div class="dark-toggle">
+    <i class="fas fa-moon" id="theme-icon" onclick="toggleDarkMode()"></i>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Badal Kumar Singh</h1>
+    <p>Web Developer | BCA Student | C | C++ | Python | </p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <img src="badal.jpg" alt="Badal's Photo" />
+    <img src="badal2.jpg" alt="Badal's Photo" />
+    <p>Hello! I'm a passionate BCA student skilled in Python, C++, and Web Development. I love building clean and
+      responsive websites.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python, C++</li>
+      <li>Responsive Web Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="project1.png" alt="Project 1">
+        <h3> RentWala</h3>
+        <p>RentWala is a simple rental listing web application where house owners can post vacant rooms and users can
+          search rooms by location, budget, and type. Built using HTML, CSS, and JavaScript, it features clean UI,
+          responsive design, and basic form functionality. </p>
+      </div>
+      <div class="project-card">
+        <img src="project2.png" alt="Project 2">
+        <h3>The Regret Room</h3>
+        <p>The Regret Room is a minimalist emotion-sharing web app where users can anonymously express their deepest
+          regrets. Each submission appears instantly on a “Wall of Regrets,” creating a powerful and anonymous shared
+          experience. Built using HTML, CSS, and JavaScript.
+
+        </p>
+      </div>
+      <!-- <div class="project-card">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Portfolio</h3>
+        <p>This personal portfolio website using HTML & CSS.</p>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="reveal">
+    <h2>Resume</h2>
+    <p><a href="Resume.pdf" download class="btn">Download My Resume (PDF)</a></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="reveal">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/your-rajputbadalsingh16@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email:rajputbadalsingh16@gmail.com</p>
+    <p>Phone: +91-8797259356</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Badal Kumar Singh. All Rights Reserved.</p>
+  </footer>
+
+   
+  <script src="index.js"></script>
+</body>
+
+</html>
