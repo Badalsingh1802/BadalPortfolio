@@ -97,7 +97,7 @@ header {
   background-size: 400% 400%;
   animation: gradientMove 10s ease infinite;
   color: white;
-  padding: 0px 20px;
+   
   text-align: center;
 }
 
@@ -266,4 +266,40 @@ footer {
     top: 10px;
     right: 15px;
   }
+}
+
+#certificates {
+  padding: 40px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.certificate-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.certificate {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
 }
