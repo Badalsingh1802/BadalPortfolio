@@ -201,12 +201,16 @@ ul {
   text-align: center;
 }
 
+.dark-mode  #certificates {
+  background: #2a2a2a;
+}
 .certificate-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
+ 
 
 .certificate {
   background: white;
@@ -214,6 +218,9 @@ ul {
   width: 300px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ .dark-mode .certificate {
+  background: #2a2a2a;
 }
 
 .download-btn {
@@ -235,7 +242,7 @@ ul {
 
 /* Contact Form */
 form {
-  text-align: center;
+   
   display: flex;
   flex-direction: column;
   gap: 15px;
