@@ -137,12 +137,22 @@ section h2 {
   margin-bottom: 20px;
 }
 
-#about img {
-  width: 220px;
-  border-radius: 10%;
-  padding-right: 50px;
+.about-images {
+  display: flex;
+  gap: 15px; /* space between images */
+   
 }
 
+.about-img {
+  flex: 1;                /* sab images equal width lengi */
+  height: 300px;          /* height fix (apne hisaab se change kar) */
+  object-fit: cover;      /* image crop hoke pura area fill karegi */
+  border-radius: 12px;
+  margin: 8px ; /* vertical margin for spacing */
+}
+
+
+ 
 /* Skills */
 ul {
   list-style: disc;
